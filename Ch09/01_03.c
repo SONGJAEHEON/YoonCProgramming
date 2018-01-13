@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int a=0, b=1, c=1,sp;
+
 int fib(int);
 
 int  main(void){
@@ -14,16 +16,10 @@ int  main(void){
 }
 
 int fib(int n){
-	int a=0, b=1, c;
-	if(n=1)return a;
-	if(n=2)return b;
-	if(n>=3){
-		for(int d=3;d<=n;d++){
-			c=a+b;
-			a=b;
-			b=c;
-		}
-	return c;
-	}
+	c=a+b;
+	sp=a;
+	a=b;
+	b=c;
+	return sp;
 }
 
