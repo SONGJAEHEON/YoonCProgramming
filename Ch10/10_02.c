@@ -6,7 +6,7 @@ int main(void){
 	int a, b, c;
 	printf("insert 2 integers between 2 and 9. ex)2 5\n");
 	scanf("%d %d",&a,&b);
-	if(a,b){
+	if(a>b){
 		c=a;
 		a=b;
 		b=c;
