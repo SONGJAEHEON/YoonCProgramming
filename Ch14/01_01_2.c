@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void square(int *){
-	*n=n*n;
+void square(int * n){
+	*n=(*n)*(*n);
 }
 
 int main(void){

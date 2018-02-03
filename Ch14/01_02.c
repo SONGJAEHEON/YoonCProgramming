@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void change(int *n1, int *n2, int *n3)
+void change(int*, int*, int*);
 
 int main(void){
 	int num1,num2,num3;
@@ -15,5 +15,5 @@ void change(int *n1,int * n2, int *n3){
 	int temp = *n3;
 	*n3=*n2;
 	*n2=*n1;
-	*n1=*temp;
+	*n1=temp;
 }
